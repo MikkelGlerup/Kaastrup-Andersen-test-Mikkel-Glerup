@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mikkel Glerup Code Test", "Mikkel Glerup Code Test\Mikkel Glerup Code Test.csproj", "{844D3BB6-BE1E-4F1F-9D83-D5C251509DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mikkel Glerup PayCalculator", "Mikkel Glerup Code Test\Mikkel Glerup PayCalculator.csproj", "{844D3BB6-BE1E-4F1F-9D83-D5C251509DB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeTest tests", "CodeTest tests\CodeTest tests.csproj", "{13AFBFDB-E75D-4F04-97BB-9AF53E87C774}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mikkel Glerup Code TestTests", "Mikkel Glerup Code TestTests\Mikkel Glerup Code TestTests.csproj", "{F81B8355-5717-4077-9629-C5DF7A23FA6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayCalculator Test", "Mikkel Glerup Code TestTests\PayCalculator Test.csproj", "{F81B8355-5717-4077-9629-C5DF7A23FA6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +17,6 @@ Global
 		{844D3BB6-BE1E-4F1F-9D83-D5C251509DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{844D3BB6-BE1E-4F1F-9D83-D5C251509DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{844D3BB6-BE1E-4F1F-9D83-D5C251509DB0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{13AFBFDB-E75D-4F04-97BB-9AF53E87C774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13AFBFDB-E75D-4F04-97BB-9AF53E87C774}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13AFBFDB-E75D-4F04-97BB-9AF53E87C774}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13AFBFDB-E75D-4F04-97BB-9AF53E87C774}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F81B8355-5717-4077-9629-C5DF7A23FA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F81B8355-5717-4077-9629-C5DF7A23FA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F81B8355-5717-4077-9629-C5DF7A23FA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
