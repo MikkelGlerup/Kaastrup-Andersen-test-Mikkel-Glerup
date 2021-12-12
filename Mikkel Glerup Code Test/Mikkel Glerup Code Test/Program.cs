@@ -10,7 +10,6 @@ namespace Mikkel_Glerup_Code_Test
             MainMenu menu = new MainMenu();
             while (showMenu)
             {
-                //change variable name
                 showMenu = menu.MenuHub();
             }
                 
