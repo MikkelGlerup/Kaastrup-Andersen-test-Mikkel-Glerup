@@ -1,8 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Mikkel_Glerup_Code_TestTests</RootNamespace>
+    <RootNamespace>Mikkel_Glerup_PayCalculatorTests</RootNamespace>
     <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Mikkel Glerup Code Test\Mikkel Glerup PayCalculator.csproj" />
+    <ProjectReference Include="..\PayCal\Mikkel Glerup PayCalculator.csproj" />
   </ItemGroup>
 
 </Project>

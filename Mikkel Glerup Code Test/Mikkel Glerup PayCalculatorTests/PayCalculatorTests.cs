@@ -19,7 +19,7 @@ namespace Mikkel_Glerup_Code_Test.Tests
         public void ThreeHourExtraHourTest()
         {
             billingModelTest.BillingDate = WeekDay;
-            billingModelTest.BillingHours = randomHour.Next(4,100);
+            billingModelTest.BillingHours = randomHour.Next(4, 100);
             int expectedHours = billingModelTest.BillingHours + payCalculator.paySheet.BonusHours;
 
             billingModelTest = payCalculator.CalculatePay(billingModelTest);
@@ -44,7 +44,7 @@ namespace Mikkel_Glerup_Code_Test.Tests
         public void WeekendBonus()
         {
             billingModelTest.BillingDate = Holiday;
-            billingModelTest.BillingHours = randomHour.Next(0,100);
+            billingModelTest.BillingHours = randomHour.Next(0, 100);
             int expectedHours = billingModelTest.BillingHours * payCalculator.paySheet.WeekendBonus;
             if (billingModelTest.BillingHours > 3)
             {
@@ -83,7 +83,7 @@ namespace Mikkel_Glerup_Code_Test.Tests
                 expectedHours = expectedHours + payCalculator.paySheet.BonusHours;
             }
             int expectedPay = expectedHours * billingModelTest.HourlyWage + payCalculator.paySheet.OvertimePay;
-            
+
             billingModelTest = payCalculator.CalculatePay(billingModelTest);
 
             int actualPay = billingModelTest.ExpectedPay;
@@ -93,7 +93,7 @@ namespace Mikkel_Glerup_Code_Test.Tests
         public void CalculatePayFail()
         {
             billingModelTest.BillingDate = WeekDay;
-            billingModelTest.BillingHours = randomHour.Next(0, 6);;
+            billingModelTest.BillingHours = randomHour.Next(0, 6); ;
             int expectedHours = billingModelTest.BillingHours;
             if (billingModelTest.BillingHours > 3)
             {
