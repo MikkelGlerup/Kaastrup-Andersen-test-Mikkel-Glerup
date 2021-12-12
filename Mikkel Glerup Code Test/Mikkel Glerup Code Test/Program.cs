@@ -7,11 +7,11 @@ namespace Mikkel_Glerup_Code_Test
         static void Main(string[] args)
         {
             bool showMenu = true;
-            Menu menu = new Menu();
+            MainMenu menu = new MainMenu();
             while (showMenu)
             {
                 //change variable name
-                showMenu = menu.MainMenu();
+                showMenu = menu.MenuHub();
             }
                 
 
